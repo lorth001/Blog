@@ -8,18 +8,17 @@ import Seo from "../components/seo"
 const IndexPage = ({data}) => (
   <Layout>
     <Seo title="Home" />
-    <h1>Latest Posts</h1>
-    {data.allMarkdownRemark.edges.map(post => (
-      <div key={post.node.id}>
-        <h3><Link to={post.node.frontmatter.path}>{post.node.frontmatter.title}</Link></h3>
-        <small>{post.node.frontmatter.date}</small>
-        <small>{post.node.frontmatter.preview}</small>
-      </div>
-    ))}
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    <div>
+        {data.allMarkdownRemark.edges.map(post => (
+          <div key={post.node.id} className="blog-card">
+            <Link to={post.node.frontmatter.path}>
+              <h3>{post.node.frontmatter.title}</h3>
+              <small>{post.node.frontmatter.date}</small>
+              <p>{post.node.frontmatter.preview}</p>
+            </Link>
+          </div>
+        ))}
+    </div>
   </Layout>
 )
 

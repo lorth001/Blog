@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/roboto": "^4.2.3",
     "gatsby": "^3.3.1",
     "gatsby-plugin-catch-links": "^3.3.0",
     "gatsby-plugin-gatsby-cloud": "^2.2.0",
