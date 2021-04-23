@@ -9,6 +9,7 @@ const AboutPage = () => (
   <Layout>
     <Seo title="About" />
     <h1>About</h1>
+    <p>Testing 123...</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
