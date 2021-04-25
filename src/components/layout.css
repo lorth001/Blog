@@ -81,8 +81,9 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Futura PT, roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -597,27 +598,54 @@ pre tt:after {
 }
 
 /* ----- custom styles ----- */
+.title {
+  color: white;
+  text-decoration: none;
+}
 
 .menu {
-  background-color: #f4f4f4;
-  padding-top: 10px;
+  margin-bottom: 1em;
 }
 
 .menu ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: #f4f4f4;
 }
 
-.menu ul a {
+.menu li {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+}
+
+.menu li a {
+  display: block;
   color: #000;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #333;
+  color: #fff;
 }
 
 .blog-card {
   margin-bottom: 2em;
-  padding-left: 1em;
+  padding: 1em;
+  transition: width 1s ease;
+}
+
+.blog-card:hover {
+  margin-bottom: 2em;
+  padding: 1em;
   border-left: 2px solid #027dff;
+  box-shadow: 3px 3px 3px lightgray;
 }
 
 .blog-card a {
@@ -628,6 +656,7 @@ pre tt:after {
   margin: 0;
   color: #333;
   text-decoration: none;
+  font-family: Futura PT, roboto, -apple-system;
 }
 
 .blog-card small {
