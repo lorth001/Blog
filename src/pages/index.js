@@ -9,7 +9,7 @@ const IndexPage = ({data}) => (
   <Layout>
     <Seo title="Home" />
     <div>
-        {data.allMarkdownRemark.edges.map(post => (
+        {data.allMarkdownRemark.edges.slice(0).reverse().map(post => (
           <div key={post.node.id} className="blog-card">
             <Link to={post.node.frontmatter.path}>
               <h3>{post.node.frontmatter.title}</h3>
