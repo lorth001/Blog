@@ -1,7 +1,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em roboto, serif, sans-serif;
+  font: 112.5%/1.45em Segoe UI, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -9,8 +9,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: roboto, serif;
+  color: #333;
+  font-family: Segoe UI, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -81,9 +81,8 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: Futura PT, roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
-    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-    sans-serif;
+  font-family: Segoe UI, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -625,7 +624,7 @@ pre tt:after {
   margin: 0;
   color: #333;
   text-decoration: none;
-  font-family: Futura PT, roboto, -apple-system;
+  font-family: Segoe UI, roboto, -apple-system;
 }
 
 .blog-card small {
@@ -638,6 +637,16 @@ pre tt:after {
   color: #333;
 }
 
+.blog-card img {
+  margin-top: 1em;
+}
+
+.about-me a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Phone */
 @media only screen and (max-width: 1024px) {
   html {
     font-size: 100%;
@@ -653,11 +662,21 @@ pre tt:after {
 
   .blog-card {
     margin-bottom: 2em;
-    padding: 1em;
+    padding-left: 1em;
     border-left: 2px solid #027dff;
   }
 }
 
+/* Tablet or Computer */
+@media screen and (min-width: 700px) {
+  .about-me {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2em;
+  }
+}
+
+/* Computer */
 @media screen and (min-width: 1025px) {
   /* Styles go here */
   .menu li a {
@@ -675,13 +694,17 @@ pre tt:after {
 
   .blog-card {
     margin-bottom: 2em;
-    padding: 1em;
+    padding-left: 1em;
     border-left: 2px solid #fff;
   }
 
   .blog-card:hover {
     margin-bottom: 2em;
-    padding: 1em;
+    padding-left: 1em;
     border-left: 2px solid #027dff;
+  }
+
+  .about-me a:hover {
+    text-decoration: underline;
   }
 }
