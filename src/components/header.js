@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
     >
       <h1 style={{ 
             margin: 0,
-            fontFamily: "Segoe UI"
+            fontFamily: "Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, serif, sans-serif"
           }}>
         <Link
           to="/"
