@@ -11,7 +11,7 @@ import Seo from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <Seo title="About" />
-    <h1>About Me — Luke</h1>
+    <h1>About (<span className="code">whoami</span>)</h1>
     <div className="about-me">
       <div>
         <p><strong>I am a recent computer science graduate and a full-time data analyst</strong> at Liberty University.</p>

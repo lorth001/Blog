@@ -1,21 +1,15 @@
 ---
 path: "/hello-world"
-date: "2021-04-30"
+date: "April 30, 2021"
 title: "Hello World"
 author: "Luke Orth"
-preview: "Welcome!  In this first blog post, I explain my motivations for starting a blog and some of the technical aspects that went into creating it."
+preview: "In this first blog post, I explain my motivations for starting a blog and some of the technical aspects that went into creating it."
 image: hello-world.png
 ---
 
-```
-TL;DR
-	- I created this blog to keep my writing skills sharp.
-	- I built the blog with Gatsby and Netlify
-```
-
 ## Why a Blog?
 
-This blog comes courtesy of my college studies winding down. I have exactly three weeks left until graduation and then I'm free — no more assigned reading, papers, projects, etc. While I've been anxiously awaiting this moment since my studies began, I'm a bit apprehensive about the future of my education. Without the direction of professors and the demands of my course syllabi, how will I ensure that I don't become complacent in my learning?
+I have exactly three weeks left until graduation and then I'm free — no more assigned reading, papers, projects, etc. While I've been anxiously awaiting this moment since my studies began, I'm a bit apprehensive about the future of my education. Without the direction of professors and the demands of my course syllabi, how will I ensure that I don't become complacent in my learning?
 
 I've often viewed organized education as a roadblock to learning the subjects that most interested me (I'm looking at you, Cultural Studies class). Even in my computer science courses, there were assignments and papers that sometimes felt like a waste of time. I loved the projects and labs, but frequently procrastinated on the write-ups and reports.
 

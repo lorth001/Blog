@@ -16,7 +16,7 @@ const IndexPage = ({data}) => (
               <h3>{post.node.frontmatter.title}</h3>
               <small>{post.node.frontmatter.date}</small>
               <p>{post.node.frontmatter.preview}</p>
-              {post.node.frontmatter.image ? <Img fluid={post.node.frontmatter.image.childImageSharp.fluid} alt="Girl in a jacket"></Img> : null}
+              {post.node.frontmatter.image ? <Img fluid={post.node.frontmatter.image.childImageSharp.fluid} alt="Hello World Image"></Img> : null}
             </Link>
           </div>
         ))}
