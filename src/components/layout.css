@@ -690,8 +690,8 @@ h4 {
 }
 
 .blog-image img {
-  -webkit-filter: brightness(0.25);
-  filter: brightness(0.25);
+  -webkit-filter: brightness(0.25) !important;
+  filter: brightness(0.25) !important;
 }
 
 .code {

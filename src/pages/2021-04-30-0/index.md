@@ -3,7 +3,7 @@ path: "/hello-world"
 date: "April 30, 2021"
 title: "Hello World"
 author: "Luke Orth"
-preview: "My first blog post. I explain my motivations for starting a blog and some of the technical aspects that went into creating it."
+preview: "My first blog post. In it, I explain my motivations for starting a blog and some of the technical aspects that went into creating it."
 image: hello-world.png
 ---
 
@@ -41,7 +41,7 @@ path: "/hello-world"
 date: "April 30, 2021"
 title: "Hello World"
 author: "Luke Orth"
-preview: "My first blog post. I explain my motivations for starting a blog and some of the technical aspects that went into creating it."
+preview: "My first blog post. In it, I explain my motivations for starting a blog and some of the technical aspects that went into creating it."
 image: hello-world.png
 ---
 
