@@ -717,6 +717,14 @@ h4 {
     padding-left: 1em;
     border-left: 2px solid #027dff;
   }
+
+  .blog-heading h1 {
+    font-size: 1.7rem;
+  }
+
+  .blog-heading h4 {
+    font-size: 0.7rem;
+  }
 }
 
 /* Tablet or Computer */

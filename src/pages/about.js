@@ -11,11 +11,11 @@ import Seo from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <Seo title="About" />
-    <h1>About (<span className="code">whoami</span>)</h1>
+    <h1>About Me (<span className="code">whoami</span>)</h1>
     <div className="about-me">
       <div>
-        <p><strong>I am a recent computer science graduate and a full-time data analyst</strong> at Liberty University.</p>
-        <p>I'm most interested in backend web systems and automation at the moment, but that's certainly subject to change in the future.  <strong>I enjoy learning anything related to CS</strong> — embedded systems, computer architecture, networking, security... even the history of computing.  The only thing I'm not in love with is CSS (<em>not that it really counts</em>).</p>
+        <p>I am a recent computer science graduate and a full-time data analyst at Liberty University.</p>
+        <p>I enjoy learning all about computer science — embedded systems, computer architecture, networking, security... even the history of computing.  The only thing I'm not in love with is CSS and styling (<em>not that it really counts</em>).</p>
         <ul>
           <li>Check out my <strong><a target="_blank" rel="noopener noreferrer" href="https://github.com/lorth001">GitHub <FaGithub color="#6e5494" size="1.5em" /></a></strong> to see what I'm working on.</li>
           <li>Send me an invite on <strong><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lukeorth/">LinkedIn <FaLinkedin color="#0077B5" size="1.5em" /></a></strong> if you're interested in connecting and communicating.</li>
@@ -33,9 +33,8 @@ const AboutPage = () => (
     </div>
     <hr></hr>
     <h1>About This Blog</h1>
-    <p><strong>This blog serves as a repository for my projects and research into CS topics.</strong></p>
-    <p>The scope of this blog is intentionally broad, as I plan to include a lot of variety in my posts.  Algorithms, programming, security — I'll write about it all.</p>
-    <p>My hope is to post here at least once a month, but time will tell how realistic that goal is.  <strong>The intent is just to have a platform that motivates me to research, write, and share about the things I'm currently working on and thinking about.</strong>  Hopefully you find it interesting!</p>
+    <p>This blog serves as a repository for my projects and research into various CS topics.  The scope is intentionally broad, as I plan to include a lot of variety in my posts.</p>
+    <p>My hope is that this platform helps motivate me to research, write, and share about the things I'm currently working on and interested in.</p>
 
   </Layout>
 )
